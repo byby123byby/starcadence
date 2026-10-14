@@ -1,8 +1,10 @@
-# 0516 · Survey26 Observer
+# 星序 · StarCadence
 
-**让每一次曝光，都成为下一次决策的依据。**
+**让每一段晴空，都成为有价值的观测。**
 
-0516 队参加 [GOSIM 2026 Agentic Observer 黑客松（Survey26）](https://create.gosim.org/survey26/)的天文巡天智能体。项目把公开星表、天文几何、光纤分配、共同曝光优化与观测反馈连接起来，在一季巡天中持续选择指向、目标组、曝光时长和观测程序。
+星序是面向天文巡天的自主观测调度智能体，联合优化视场选择、光纤分配与曝光时长，并随天气和观测反馈动态调整。项目把公开星表、天文几何与实时反馈连接起来，在一季巡天中持续选择指向、目标组、曝光时长和观测程序。
+
+*Built by Team 0516 for the [GOSIM 2026 Agentic Observer Hackathon（Survey26）](https://create.gosim.org/survey26/).*
 
 本仓库发布正式选定的参赛版本 **v0.73 / `0516v73`**。运行源码来自 2026 年 10 月 7 日的提交包，附有算法说明、架构图和可直接运行的协议示例。
 
@@ -27,7 +29,7 @@
 
 ## 架构
 
-![0516 Survey26 Observer 架构](docs/assets/architecture.svg)
+![星序 StarCadence 架构](docs/assets/architecture.svg)
 
 每轮决策形成一个闭环：**公开输入 → 状态更新 → 事件处理 → 候选搜索 → 动作校验 → 观测反馈**。模型建议、确定性事件解析和数值优化在这个闭环中分工协作。
 
@@ -38,8 +40,8 @@
 使用 **Python 3.12**，运行代码只依赖标准库。
 
 ```bash
-git clone https://github.com/byby123byby/survey26-observer-0516.git
-cd survey26-observer-0516
+git clone https://github.com/byby123byby/starcadence.git
+cd starcadence
 
 # 用合成公开输入体验 JSONL 决策过程
 python3 -B agent.py --offline < examples/session.jsonl
@@ -127,8 +129,8 @@ scripts/smoke.py          协议示例检查
 
 感谢 **GOSIM 2026 Agentic Observer Hackathon** 提供比赛平台、任务设计、公开协议、示例工程和评测工具，感谢参赛社区的讨论与交流。项目从官方 Python v4 示例起步，持续扩展了调度、反馈学习、请求处理和运营消息解析。
 
-本仓库采用 **CC BY-NC 4.0**，来源与署名见 [LICENSE.md](LICENSE.md) 和 [NOTICE.md](NOTICE.md)。使用时请注明 **0516 · Survey26 Observer** 及 [GOSIM 2026 Agentic Observer Hackathon](https://create.gosim.org/survey26/)。
+本仓库采用 **CC BY-NC 4.0**，来源与署名见 [LICENSE.md](LICENSE.md) 和 [NOTICE.md](NOTICE.md)。使用时请注明 **星序 · StarCadence（0516 队）** 及 [GOSIM 2026 Agentic Observer Hackathon](https://create.gosim.org/survey26/)。
 
 ---
 
-**English:** Survey26 Observer is team 0516's astronomy scheduling agent for the GOSIM 2026 Agentic Observer Hackathon. This repository publishes the selected competition version, v0.73. It combines field and fiber assignment, shared-exposure optimization, request-aware candidate selection, observation-feedback calibration, operational-log parsing, and two-stage LLM advice. The runtime uses the Python standard library and the JSONL v4 participant protocol.
+**English:** StarCadence is team 0516's autonomous astronomy scheduling agent for the GOSIM 2026 Agentic Observer Hackathon. This repository publishes the selected competition version, v0.73. It combines field and fiber assignment, shared-exposure optimization, request-aware candidate selection, observation-feedback calibration, operational-log parsing, and two-stage LLM advice. The runtime uses the Python standard library and the JSONL v4 participant protocol.

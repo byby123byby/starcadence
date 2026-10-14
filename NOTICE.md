@@ -2,7 +2,7 @@
 
 ## 参赛作品
 
-**0516 · Survey26 Observer**，2026，0516 队。
+**星序 · StarCadence**，2026，0516 队。
 
 本仓库公开 `0516v73` 参赛版本。0516 队自行编写的代码、对官方示例的修改，以及本次发布的项目说明和架构图，采用 [Creative Commons Attribution-NonCommercial 4.0 International（CC BY-NC 4.0）](https://creativecommons.org/licenses/by-nc/4.0/)许可。
 

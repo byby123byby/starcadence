@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="890" viewBox="0 0 1280 890" role="img" aria-labelledby="title desc">
-  <title id="title">0516 Survey26 Observer architecture</title>
+  <title id="title">星序 StarCadence architecture</title>
   <desc id="desc">Public inputs update the observation ledger and operational constraints. Two-stage model advice informs field and shared-exposure optimization. A validated action yields feedback for the next decision, under a CPU and wall-time budget.</desc>
   <defs>
     <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#101e36"/><stop offset="1" stop-color="#07101d"/></linearGradient>
@@ -18,7 +18,7 @@
   <circle cx="1180" cy="65" r="24" fill="none" stroke="#45d3bd" stroke-width="1.5"/>
   <ellipse cx="1180" cy="65" rx="44" ry="11" transform="rotate(-30 1180 65)" fill="none" stroke="#45d3bd"/>
   <text x="42" y="49" class="label">GOSIM 2026 · AGENTIC OBSERVER · v0.73</text>
-  <text x="40" y="99" fill="#ffffff" font-size="38" font-weight="650">0516 / 从公开信息到一次曝光</text>
+  <text x="40" y="99" fill="#ffffff" font-size="38" font-weight="650">星序 StarCadence / 从公开信息到一次曝光</text>
 
   <rect x="40" y="140" width="1200" height="104" rx="16" class="card"/>
   <text x="64" y="176" class="title">公开输入</text>
@@ -76,5 +76,5 @@
   <text x="904" y="762" class="title">新反馈 → 下一轮规划</text>
   <text x="904" y="799" class="body">命中得分 · 请求进度 · 报修结果</text>
   <text x="40" y="863" class="small">执行一步，更新状态，再选择下一次曝光。</text>
-  <text x="1005" y="863" class="small">0516 · Survey26 Observer</text>
+  <text x="1005" y="863" class="small">StarCadence · Team 0516</text>
 </svg>
