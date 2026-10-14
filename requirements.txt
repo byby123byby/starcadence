@@ -1,0 +1,5 @@
+# This agent currently uses only the Python standard library.
+# Declare any added third-party packages here (including version constraints).
+# The platform installs dependencies during preparation, per the 2026-10-05
+# clarification. Runtime has no external Internet except the model interface:
+# never download packages or model weights during an evaluation.

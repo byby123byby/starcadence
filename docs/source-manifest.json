@@ -1,0 +1,25 @@
+{
+  "version": "v0.73",
+  "platform_version": "0516v73",
+  "archive_sha256": "7b813070106da3e9a8e18f5d51821bf56e5746b0eb8ba2df37cf1a2bd34cc853",
+  "files": {
+    "LICENSE.md": "8cf859d2fde049557fd0daadbbdf7c652f02187067f662829c034a1ea3199567",
+    "agent.py": "49443d55a6b0833ba3403a1dcff3f57d8b1435ac2644e189bd44d5c64afa273c",
+    "observer.project.json": "6b50ed890ea809f2da4e9cbf334064213405a5cc668099996a8f2da8b79f59c3",
+    "requirements.txt": "cb13a32e711097a0d981522b1afa05bd7f6d2f23cb8377d892befe05e0a27739",
+    "agent_core/__init__.py": "86f2aa3636a25e64fde75376458dbe0fa1efcbee58d18ee5cfc93322ccc45330",
+    "agent_core/calibration.py": "c4fbf8bbecdefa18aed6282f722902a38a39765bc716578107e926c28a65e7a8",
+    "agent_core/codex_client.py": "bf333dac9616d4009dd3aeba84c3cae6494fc6bb5c7e8901dcd5caeaff697029",
+    "agent_core/dutylog.py": "31b9e0e564a8ae9aa6c012c9a294139f1f693abb10ee1b01074c20af26f6f79a",
+    "agent_core/geometry.py": "7d72f41a8a3edf9a6232ae9b920762bebcfc04277d9f5c07acd95d3eb5eeae3b",
+    "agent_core/llm_client.py": "b6875d97502fb0ccc9beaa9a7ef33e101122cdb663b977b4375aa968b1b7b375",
+    "agent_core/memory.py": "50b85b4a71e0450b54eb9487d40da11fddc8c41199612fba3810ddddf0e8bbfa",
+    "agent_core/planner.py": "64fb48f473534cf345ea6e6974740d242fe11629b51c57bf2700720daaec761a",
+    "agent_core/protocol.py": "4175d7e81ec2f561555fb7f05396096ea9a0a46cb0fff50d622b47bb6becc09f",
+    "agent_core/scoring.py": "61ba99f7a074e46a427be2350b47c1daaa5619398bee881b25a5940d02092d78",
+    "agent_core/shutdown.py": "024965d4d6afa36e97782e6181beb989d7d68995ece0afc129ac3a16c1012d83",
+    "agent_core/state.py": "1a63e9381e992511003b68e975eec16c386e7043f5572b3a536236e6b53a826f",
+    "agent_core/terrain.py": "2f2b4b417df7532619b374c5c67f4fa8323d8038940f136e2297aaaf5e7113c7",
+    "agent_core/validation.py": "b993e7f861b9bf6b9d8d88443b1c9983a56006c8eeba026980b9d2fce69b0f8c"
+  }
+}
