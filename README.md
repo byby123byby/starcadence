@@ -29,7 +29,7 @@
 
 ## 架构
 
-![星序 StarCadence 架构](docs/assets/architecture.svg)
+![星序 StarCadence 架构](docs/assets/starcadence-architecture.svg)
 
 每轮决策形成一个闭环：**公开输入 → 状态更新 → 事件处理 → 候选搜索 → 动作校验 → 观测反馈**。模型建议、确定性事件解析和数值优化在这个闭环中分工协作。
 
